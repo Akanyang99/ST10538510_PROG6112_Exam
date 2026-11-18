@@ -1,21 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package st10538510_question.pkg1;
 
-/**
- *
- * @author Student
- */
-public class Products {
-public class Product implements IProduct {
+public class Products implements IProduct {
 
     private String[] products;
     private int[][] sales;
 
     // Constructor accepting the 1D product names array and 2D sales array
-    public Product(String[] products, int[][] sales) {
+    public Products(String[] products, int[][] sales) {
         this.products = products;
         this.sales = sales;
     }
@@ -43,7 +34,7 @@ public class Product implements IProduct {
         return (double) total / count;
     }
 
-    // Finds the product with the highest single monthly sale and formats it as "Product Name(maxSale)"
+    // Finds the product with the highest single monthly sale
     // Matches Sample Screenshot: "Cozy Nights Monarch(25)"
     @Override
     public String GetMostPopularProduct() {
