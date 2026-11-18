@@ -125,8 +125,8 @@ public class ProductApp extends JFrame implements ActionListener {
                 return;
             }
 
-            // Perform calculations using ProductCalculationsTest class
-            ProductCalculationsTest calc = new ProductCalculationsTest(price);
+            // Perform calculations using ProductCalculations class
+            ProductCalculations calc = new ProductCalculations(price);
             double vat = calc.GetVat();
             double commission = calc.GetCommission();
             double total = calc.GetTotal();
