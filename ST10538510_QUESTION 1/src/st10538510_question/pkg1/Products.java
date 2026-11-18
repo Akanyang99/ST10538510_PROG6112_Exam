@@ -1,6 +1,6 @@
 package st10538510_question.pkg1;
 
-public class Products implements IProduct {
+public class Products implements IProducts {
 
     private String[] products;
     private int[][] sales;
