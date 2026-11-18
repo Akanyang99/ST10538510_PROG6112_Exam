@@ -1,21 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package st10538510_question2;
 
-/**
- *
- * @author Student
- */
-package st10538510_question2;
-
-public class ProductCalculationsTest implements IProductCalculations {
+public class ProductCalculations implements IProductCalculations {
 
     private double price;
 
     // Constructor accepting the product price
-    public ProductCalculationsTest(double price) {
+    public ProductCalculations(double price) {
         this.price = price;
     }
 
